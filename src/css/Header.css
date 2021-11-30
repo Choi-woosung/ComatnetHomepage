@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+/* --------------------- nav ---------------------- */
+.navBar {
+	display: flex;
+	padding: 0.5em 2em;
+	background-color: #1d1f32;
+	width: 100vw;
+	height: 7vh;
+	align-items: center;
+	min-width: 1440px;
+}
+
+.logoName {
+	color: white;
+	font-size: 2em;
+	display: block;
+	margin-right: 20px;
+	width: 12%;
+	text-align: center;
+	text-decoration: none;
+}
+
+.menuContainer {
+	display: flex;
+	width: 88%;
+}
+
+.menuBox {
+	list-style-type: none;
+	display: flex;
+	width: 100%;
+}
+
+.menuItem {
+	color: #adb1c7;
+	padding: 1% 1%;
+	white-space: nowrap;
+}
+
+.menuItem a:link {
+	color: white;
+	text-decoration: none;
+}
+
+.menuItem a:visited {
+	color: white;
+	text-decoration: none;
+}
+
+.menuItem:hover {
+	color: white;
+	cursor: pointer;
+}
+
+.menuActive {
+	background-color: #2e3048;
+	border-radius: .42rem;
+	color: white;
+	font-weight: bold;
+}
+
+button {
+	background: inherit;
+	border: none;
+	box-shadow: none;
+	border-radius: 0;
+	padding: 0;
+	overflow: visible;
+	cursor: pointer
+}
+
+.logoutBtn {
+	color: #fff;
+	background-color: #0bb783;
+	border-color: #0bb783;
+	padding: .375rem .75rem;
+	font-size: 1rem;
+	border-radius: .25rem;
+	height: 30px;
+}
+/* --------------------- nav ---------------------- */
