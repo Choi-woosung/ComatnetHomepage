@@ -1,7 +1,7 @@
-import Header from './component/Header';
-import './css/Header.css';
-import Main from './pages/Main';
-import Dashboard from './pages/Dashboard';
+import Header from 'component/Header';
+import 'css/Header.css';
+import Main from 'pages/Main';
+import Dashboard from 'pages/Dashboard';
 import { Routes, Route } from 'react-router-dom'
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
 			<main>
 				<Routes>
 					<Route path="/" element={<Main />} />
-					<Route path="/Dashboard" element={<Dashboard />} />
+					<Route path="/dashboard" element={<Dashboard />} />
 				</Routes>
 			</main>
 		</div>

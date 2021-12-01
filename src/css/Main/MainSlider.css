@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.SliderBox {
+	width: 100%;
+	margin: 0 auto;
+/* 	overflow: hidden; */
+}
+
+.imgBox {
+	width: 100%;
+	height: 600px;
+}
+
+.imgBox > img {
+	width: 100%;
+	height: 100%;
+/* 	background-size: cover; */
+	object-fit:cover
+}

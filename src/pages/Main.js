@@ -1,7 +1,13 @@
+import MainSlider from 'component/Main/MainSlider';
+import MainSection from 'component/Main/MainSection';
+import Footer from 'component/Footer';
+
 function Main() {
   return (
 	<div>
-		<h1>Main Page</h1>
+		<MainSlider />
+		<MainSection />
+		<Footer />
 	</div>
   );
 }
